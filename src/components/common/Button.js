@@ -28,8 +28,8 @@ alignSelf: 'center',
 color: 'black',
 fontSize: 16,
 fontWeight: '600',
-paddingTop: 10,
-paddingBottom: 10
+paddingTop: 15,
+height: 35
 
 },
   buttonStyle: {
@@ -39,9 +39,10 @@ paddingBottom: 10
     backgroundColor: '#cc6710',
     borderRadius: 5,
     borderWidth: 1,
+    borderBottom: 5,
     borderColor: 'black',
     marginLeft: 5,
-    barginRight: 5
+    marginRight: 5
   }
 }
 

@@ -16,6 +16,7 @@ const CardSection = (props) => {
 
 const styles = {
     containerStyle: {
+height: 75,
 
     borderBottomWidth: 1,
     padding: 5,
