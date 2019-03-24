@@ -49,6 +49,7 @@ renderContent() {
 
 render() {
   return (
+
     <View>
       <Header  headerText="Authentication" />
       {this.renderContent()}

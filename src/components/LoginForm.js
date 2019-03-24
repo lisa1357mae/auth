@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Text} from 'react-native';
+import {Text, View} from 'react-native';
 import firebase from 'firebase';
 import ReactNative from 'react-native';
 import { Button, Card, CardSection, Input, Spinner } from './common';
@@ -68,7 +68,7 @@ return <Spinner size="small" />;
               value={this.state.text}
               onChangeText={email => this.setState({ email })}
             />
-      </CardSection >
+      </CardSection>
 
   <CardSection>
     <Input
@@ -87,6 +87,12 @@ return <Spinner size="small" />;
     <CardSection>
         {this.renderButton()}
     </CardSection>
+
+    <View>
+      <Text>Hello!!!!!!!!! We will put the deck here?!!!!!!!!! </Text>
+    </View>
+
+
 
   </Card>
 

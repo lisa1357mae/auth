@@ -1,30 +1,25 @@
+
 import React from 'react';
-import ReactNative from 'react';
-import { View, Text }  from 'react-native';
-
-
-
+import { View } from 'react-native';
 
 const CardSection = (props) => {
-
   return (
-    <View style= {styles.containerStyle}>
-    {props.children}
-  </View>
+    <View style={styles.containerStyle}>
+      {props.children}
+    </View>
   );
 };
 
 const styles = {
-    containerStyle: {
-height: 75,
-
+  containerStyle: {
     borderBottomWidth: 1,
     padding: 5,
-    backgroundColor: '#c4af25',
+    backgroundColor: '#fff',
     justifyContent: 'flex-start',
     flexDirection: 'row',
-    postition: 'relative'
+    borderColor: '#ddd',
+    position: 'relative'
   }
 };
 
-export {CardSection};
+export { CardSection };
